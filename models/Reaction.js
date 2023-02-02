@@ -1,6 +1,6 @@
 const { Schema, Types } = require('mongoose');
 
-const reactionSchema= new Schema(
+const reactionSchema = new Schema(
     {
         reactionId: {
             type: Schema.Types.ObjectId,
@@ -23,7 +23,6 @@ const reactionSchema= new Schema(
     {
         toJSON: {
             getters: true,
-            virtuals: true
         }
     },
 );
